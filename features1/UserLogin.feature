@@ -23,5 +23,5 @@ Feature: User Login
   Scenario: Login attempt with empty fields
     Given I am on the login page
     When I leave the email and password fields empty
-    And I click the "Login" button
+    And I click the "Login" button/s
     Then I should see an error message "Email and password are required"
