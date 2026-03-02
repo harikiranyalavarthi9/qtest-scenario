@@ -9,7 +9,7 @@ Feature: User Login
 
   Scenario: Successful login with valid credentials
     Given I am on the login page
-    When I enter email "user@example.com" and password "Password@123"
+    When I enter email "user@example.com" and password "Password@123!"
     And I click the "Login" button
     Then I should be redirected to the dashboard
     And I should see a welcome message "Welcome, User!"
