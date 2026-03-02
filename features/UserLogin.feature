@@ -16,7 +16,7 @@ Feature: User Login
 
   Scenario: Unsuccessful login with invalid credentials
     Given I am on the login page
-    When I enter email "user@example.com" and password "WrongPassword"
+    When I enter email "user@example.com" and password "Wrong Password"
     And I click the "Login" button
     Then I should see an error message "Invalid email or password"
 
