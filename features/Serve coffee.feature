@@ -7,4 +7,4 @@ Feature: Serve coffee
     Given there are 1 coffees left in the machine
     And I have deposited 1 dollar
     When I press the coffee button
-    Then I press the coffee buttons of it you know i say that!
+    Then I press the coffee buttons of it you know i say that
