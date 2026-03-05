@@ -16,7 +16,7 @@ Feature: API Authentication and Token Management
 
   Scenario: User login fails with invalid password
     Given I have user credentials with email "user@example.com"
-    When I send a login request with invalid password "WrongPassword"
+    When I send a login request with invalid password "Wrong Password"
     Then the response status should be 401
     And the response should contain error message "Invalid credentials"
     And no auth token should be returned
